@@ -1,0 +1,9 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "indent": [4],
+    "mark-callable-contracts": "off",
+    "compiler-fixed": "off",
+    "not-rely-on-time": "off"
+  }
+}

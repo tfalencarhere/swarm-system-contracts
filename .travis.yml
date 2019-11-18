@@ -1,0 +1,20 @@
+language: generic
+services:
+- docker
+branches:
+  only:
+  - master
+jobs:
+  include:
+  - stage: lint
+    script:
+    - docker build -t travis .
+    - docker run -it --rm travis npm run solhint
+  - stage: test
+    script:
+    - docker build -t travis .
+    - docker run -it --rm travis npm test
+  - stage: test
+    script:
+    - docker build -t travis .
+    - docker run -it --rm travis npm run coverage
