@@ -30,6 +30,7 @@
     "bn-chai": "^1.0.1",
     "chai": "^4.2.0",
     "ethereumjs-util": "^6.2.0",
+    "solhint": "^2.3.0",
     "solidity-coverage": "^0.6.7",
     "truffle": "^5.1.0"
   }
