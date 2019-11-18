@@ -31,10 +31,10 @@ contract('Postage', (accounts) => {
     beginValidity,
     endValidity,
     postagePaid,
-    witnessAccount,
-    contracts,
     payment,
-    witnessType = 0
+    witnessAccount,
+    witnessType = 0,
+    contracts
   }, expected) {
     const { token, burn, postage } = contracts
 
