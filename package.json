@@ -1,0 +1,23 @@
+{
+  "name": "swarm-system-contracts",
+  "version": "1.0.0",
+  "description": "System wide smart contracts for Swarm (postage stamps, oracles, etc.)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethersphere/swarm-system-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethersphere/swarm-system-contracts/issues"
+  },
+  "homepage": "https://github.com/ethersphere/swarm-system-contracts#readme"
+}
